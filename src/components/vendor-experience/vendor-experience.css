@@ -1,0 +1,68 @@
+.vendor-experience {
+    display: flex;
+}
+
+#textDiv3 {
+    color: #242120;
+    width: 40%;
+}
+
+#textDiv3 h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    margin-top: 30%;
+}
+
+#vendor {
+    border: 1px solid rgba(255, 92, 0, 0.4);
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 10px;
+    line-height: 16px;
+    padding: 5px;
+    letter-spacing: 0.02em;
+    color: #FF5C00;
+}
+
+#textDiv3 p {
+    margin-top: 10%;
+    font-size: 12px;
+}
+
+#vendorExperience {
+    color: #FF5C00;
+}
+
+.full-pink-ellipse {
+    width: 65%;
+    top: 5%;
+    right: 0;
+    position: absolute;
+}
+
+.woman-shopping {
+    width: 75%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 900px) {
+    .vendor-experience {
+        flex-direction: column-reverse;
+    }
+
+    .full-pink-ellipse {
+        width: 100%;
+    }
+
+    .woman-shopping {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #textDiv3 {
+        width: 100%;
+    }
+}

@@ -1,0 +1,113 @@
+
+
+.footer-link-ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer-link-ul .footer-link-heading {
+    font-weight: bold;
+    margin-bottom: 35%;
+}
+
+.footer-link-heading {
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+#getInTouch {
+    margin-bottom: 20%;
+}
+
+.careers-heading {
+    font-weight: bold;
+    margin-bottom: 15%;
+}
+
+.footer-link-ul .footer-link {
+    margin-bottom: 15%;
+    display: block;
+}
+
+.footer-link, .careers-link {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+.careers .careers-link {
+    margin-bottom: 10%;
+    display: block;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.footer-link-1, .footer-link-2, .footer-link-3 {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.footer-link-2 {
+    width: 45%;
+    justify-content: space-around;
+}
+
+.footer-link-3 {
+    color: #ffffff;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: initial;
+}
+
+.social-icons {
+    margin-bottom: 27%;
+}
+
+.social-icons img {
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-body {
+        flex-direction: column;
+    }
+
+    .footer-link-1, .footer-link-2, .footer-link-3 {
+        margin-bottom: 10%;
+        width: 63%;
+    }
+
+    .footer-link-2 {
+        width: 70%;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-link-1, .footer-link-2, .footer-link-3 {
+        width: 75%;
+    }
+
+    .footer-link-2 {
+        width: 83%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer-link-ul .footer-link, .careers .careers-link {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .footer-link-ul .footer-link, .careers .careers-link {
+        font-size: 10px;
+    }
+}

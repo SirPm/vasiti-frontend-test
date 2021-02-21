@@ -1,0 +1,105 @@
+.testimonial-header-2 {
+    display: flex;
+}
+
+#textDiv2 {     
+    color: #FFFFFF;
+    width: 40%;
+}
+
+#textDiv2 h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    margin-top: 30%;
+}
+
+#customer {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 10px;
+    line-height: 16px;
+    padding: 5px;
+    letter-spacing: 0.02em;
+}
+
+#textDiv2 p {
+    margin-top: 10%;
+    font-size: 12px;
+}
+
+#imageDiv2 {    
+    position: relative;
+}
+
+.full-black-ellipse {
+    width: 60%;
+    margin-top: 20%;
+}
+
+.black-ladies {
+    position: absolute;
+    width: 55%;
+    left: 5%;
+    bottom: 0;
+}
+
+#textDiv2Footer {
+    margin: 15% 0 25% 0;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+#textDiv2Footer span {
+    text-transform: uppercase;
+}
+
+/* @media only screen and (max-width: 1000px) {
+    .full-black-ellipse {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 845px) {
+    .full-black-ellipse {
+        width: 80%;
+    }
+} */
+/* @media only screen and (max-width: 900px) and (min-width: 780px) {
+    
+} */
+
+@media only screen and (max-width: 900px) {
+    .testimonial-header-2 {
+        flex-direction: column-reverse;
+    }
+
+    #textDiv2 {
+        width: 100%;
+    }
+
+    #imageDiv {
+        margin-top: 10%;
+    }
+
+    #textDiv2Footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #textDiv2Footer img {
+        width: 35%;
+    }
+
+    .black-ladies {
+        width: 100%;
+    }
+
+    .full-black-ellipse {
+        width: 100%;
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,22 @@
+/* .sub-header-div {
+    height: 45px;
+    display: flex;
+    align-items: center;
+} */
+
+#subHeaderNav {
+    list-style: none;
+    height: 45px;
+    display: flex;
+    align-items: center;    
+    justify-content: space-evenly;
+}
+
+.sub-header-nav-link {
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
